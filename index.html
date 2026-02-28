@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <div class="logo">🙂</div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Our Profile</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Message Us</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <h2>Hi Anindito, Welcome To Website</h2>
+    <p>this is my website portofolio</p>
+
+    <div class="banner">
+        <img src="https://t3.ftcdn.net/jpg/06/88/34/44/360_F_688344461_4aQcdeEYNirHbcveeyyGE4IyjsDWQjAf.jpg" alt="Banner Image">
+    </div>
+</section>
+
+<!-- HEADQUARTER -->
+<section class="hq">
+    <h3>Our Headquarter</h3>
+
+    <div class="cities">
+        <div class="city">
+            
+            <div class="circle"></div>
+            <img src="https://t3.ftcdn.net/jpg/06/88/34/44/360_F_688344461_4aQcdeEYNirHbcveeyyGE4IyjsDWQjAf.jpg" alt="City Image">
+            <p>Jakarta</p>
+        </div>
+
+        <div class="city">
+            <div class="circle"></div>
+            <p>Bandung</p>
+        </div>
+
+        <div class="city">
+            <div class="circle"></div>
+            <p>Surabaya</p>
+        </div>
+    </div>
+</section>
+
+<!-- MESSAGE -->
+<section class="message">
+    <h3>Message Us</h3>
+
+    <div class="message-container">
+
+        <form id="messageForm">
+            <label>Nama :</label><input type="text" id="nama" required>
+
+            <label>Tanggal Lahir :</label>
+            <input type="date" id="tgl">
+
+            <label>Jenis Kelamin :</label>
+            <div>
+                <input type="radio" name="gender" value="Laki-Laki"> Laki-Laki
+                <input type="radio" name="gender" value="Perempuan"> Perempuan
+            </div>
+
+            <label>Pesan :</label>
+            <textarea id="pesan"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="output" id="outputBox">
+            
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    Created AninditoP
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
